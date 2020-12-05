@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add and remove places</title>
     <script src="useofsplice.js"></script>
 </head>
+<style>
+    .orgArray,
+    .arrayLength,
+    .newArray {
+        margin: 10px;
+        font-style: italic;
+    }
+
+    .placeAdd,
+    .arrayLength {
+        margin: 10px;
+        font-style: normal;
+    }
+</style>
 
 <body>
     <div>
-        Original array of places:
-        <li class="orgArray"></li>
+        <h3>Original places:</h3>
+        <li class="orgArray" style="margin: 10px;"></li>
     </div>
     <div>
         <input class="placeAdd" type="text">
         <button>Add</button>
     </div>
     <div style="margin-top:10px ;">
-        New array of places:
+        <h3>After adding places:</h3>
         <li class="newArray"></li>
+        <span class="arrayLength"></span>
     </div>
 </body>
-
 </html>

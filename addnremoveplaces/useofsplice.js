@@ -9,16 +9,16 @@ document.addEventListener("DOMContentLoaded",()=>{
         document.querySelector(".newArray").innerHTML = ' ';
         let html_content2 = ' ';
         myPlaces.forEach((place)=>{
-        html_content2 = html_content2 + `<ul>${place}</ul>`
+        html_content2 = html_content2 + ` ${place} `
         document.querySelector(".newArray").innerHTML = html_content2;
         });
-    document.querySelector(".newArray").innerHTML += `New array Length: ${arrLength}`;
+    document.querySelector(".arrayLength").innerHTML = `New array Length: ${arrLength}`;
     }
 
     let yourPlaces = ["Biratnagar", "Lalitpur", "Patan", "Kathmandu","Pokhara","Palpa"];
     let html_content1 =' ';
     yourPlaces.forEach((place)=>{
-        html_content1 = html_content1 + `<ul>${place}</ul>`
+        html_content1 = html_content1 + ` ${place} `
         document.querySelector(".orgArray").innerHTML = html_content1;
     });
     
