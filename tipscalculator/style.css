@@ -1,0 +1,44 @@
+#calculateBtn {
+    color: maroon;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid maroon;
+    margin-top: 10px;
+    font-size: large;
+}
+#calculateBtn:hover{
+    color: white;
+    background-color: maroon;
+    font-size: 25px;
+}
+#group{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    /* align-content: center; */
+    justify-self: center;
+    /* place-items: center; */
+    vertical-align: middle;
+    line-height: 100%;
+    margin: auto;
+    position: absolute;
+    right: 50%;
+    transform: translate(-50%);
+    justify-items: center; 
+    left: 50%;
+    background-color:rgb(238, 194, 194);
+    width: 300px;
+    padding: 10px;
+}
+#totalAmount,#tipsPercent{
+    margin-top: 5px;
+}
+.tipsAmount{
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: indigo;
+    font-size: 20px;
+
+}
