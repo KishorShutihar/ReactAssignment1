@@ -6,13 +6,26 @@
     <title>Digital clock</title>
     <script src="clock.js"></script>
     <style>
-        h1 {
-            color:rgba(128, 0, 255, 0.604);
-            padding: 5px;
+        #clock {
+            color:red;
+            background-color:black;
+            border: 5px solid green;
+            margin-top:5px;
+            padding-top:  10px;
+            left: 50%;
+            right: 50%;
+            text-align: center;
+            width: 200px;
+            position: absolute;
+            transform: translate(-50%);
         }
     </style>
 </head>
 <body>
-    <h1></h1>
+    <div>
+    <label for="clock" style="font-weight:bold; font-size: 30px; ">Digital Clock:</label>
+    <h1 id="clock"></h1>
+    </div>
+    
 </body>
 </html>

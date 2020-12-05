@@ -13,8 +13,8 @@ setInterval(() => {
     ];
     let addedZeroTime = minTwoDigits(timeObj);
     let varTime =  addedZeroTime[0] + ':' + addedZeroTime[1] + ':' + addedZeroTime[2] +(vardate.getHours()>12?' PM':' AM') ;
-    document.querySelector("h1").innerHTML = " "
-    document.querySelector("h1").append(varTime);
+    document.querySelector("#clock").innerHTML = " "
+    document.querySelector("#clock").append(varTime);
 }, 1000)
 
 function minTwoDigits(array) {
